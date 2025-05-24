@@ -31,7 +31,7 @@
           "type": "executiontime"
         }
       ],
-      "type": "prompt"
+      "type": "rprompt"
     },
     {
       "alignment": "left",
@@ -59,7 +59,7 @@
           "type": "git"
         }
       ],
-      "type": "prompt"
+      "type": "rprompt"
     },
     {
       "alignment": "left",
@@ -83,7 +83,7 @@
           "type": "text"
         }
       ],
-      "type": "prompt"
+      "type": "rprompt"
     }
   ],
   "final_space": true,
