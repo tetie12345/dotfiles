@@ -2,13 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-      {
-        "transient_prompt": {
-          "background": "transparent",
-          "foreground": "#ffffff",
-          "template": "{{ .Shell }}> "
-        }
-      },
       "alignment": "left",
       "leading_diamond": "<#7eb8da>\u250f</>",
       "segments": [
@@ -20,6 +13,12 @@
           "style": "diamond",
           "template": "[{{ .CurrentDate | date .Format }}]",
           "type": "time"
+          "transient_prompt": {
+            "background": "transparent",
+            "foreground": "#ffffff",
+            "template": "{{ .Shell }}> "
+          }
+      },
         },
         {
           "foreground": "#7eb8da",
